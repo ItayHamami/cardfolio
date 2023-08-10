@@ -1,38 +1,169 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --background-color-light: #5bf8a8;
+  --color-light: #003d75;
+  --background-color-dark: #333;
+  --color-dark: #5bf8a8;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: var(--background-color-light);
+  color: var(--color-light);
+}
+
+body.dark-mode {
+  background-color: var(--background-color-dark);
+  color: var(--color-dark);
+}
+
+body.dark {
+
+  --image-grayscale: 50%;
+  --image-opacity: 90%;
+}
+/* Light Mode Styles */
+.light-mode {
+  background-color: #5bf8a8;
+  color: #003d75;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #333;
+  color: #5bf8a8;
+}
+
+
+  
+img,
+video {
+  filter: grayscale(var(--image-grayscale)) opacity(var(--image-opacity));
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+  --color-background: #1f2023;
+  --color-foreground: #efefef;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
+
+}
+.footer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.footer .col-md-3 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.toggle-button {
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.toggle-button.dark {
+  color: white; /* Dark mode icon color */
+}
+
+.toggle-button.light {
+  color: black; /* Light mode icon color */
+}
+
+.toggle-button:focus {
+  outline: none;
+}
+
+.toggle-button:hover {
+  transform: scale(1.1);
+}
+.dark {
+  background-color: #333;
+  color: #5bf8a8;
+}
+
+.card-container {
+  margin-bottom: 3rem; /* Adjust as needed */
+}
+
+.card {
+  padding: 0;
+  border-radius: 20px;
+
+
+
   }
-  to {
-    transform: rotate(360deg);
+  .card img{
+    border-radius: 20px;
+
+
   }
+
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+  }
+  #about img{
+border-radius: 10px;
+max-width: 400px;
+max-height: 300px;
+object-fit: cover;
+  }
+.how-to-use{
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+}
+#weblogo{
+  width: 170px;
+}
+
+.custom-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fffff1; 
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.custom-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Remove link styling */
+.custom-button a {
+  text-decoration: none;
+  color: inherit;
 }
