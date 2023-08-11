@@ -20,6 +20,10 @@ Axios
 HTML5
 CSS3
 
+**Admin user: 
+For admin functions , such as adding and deleting posts from the general "database":
+ username:itay@gmail.com 
+ password: 12345678
 
 Contributions are welcome! If you find a bug or have an idea for an enhancement, please submit an issue or pull request. For major changes, please open an issue first to discuss your proposed changes.
 
