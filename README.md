@@ -20,6 +20,17 @@ Axios
 HTML5
 CSS3
 
+Installing
+Run 'npm install' to get all required modules and installations
+Environment variables
+REACT_APP_API="http://localhost:8000"
+
+Starting the project
+To get the project up and running, run the following in different Terminals
+
+Terminal One: "json-server --watch db.json --port 8000"
+Terminal Two: "npm start"
+
 **Admin user: 
 For admin functions , such as adding and deleting posts from the general "database":
  username:itay@gmail.com 
