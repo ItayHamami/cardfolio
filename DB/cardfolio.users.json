@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "652765bfb09829b144eafeef"
+  },
+  "name": {
+    "firstName": "Itay",
+    "middleName": "admin",
+    "lastName": "Hamami"
+  },
+  "isBusiness": false,
+  "isAdmin": true,
+  "phone": "050-1010100",
+  "email": "admin@gmail.com",
+  "password": "$2a$10$DoUQEaA7fJn1cUx/bJ3L7ebU1g0PxR.HV19kUNFYaiNdDp3t4u1Sa",
+  "address": {
+    "state": "HaMerkaz",
+    "country": "israel",
+    "city": "Rishon LeZion",
+    "street": "hazait",
+    "houseNum": 52,
+    "zip": "123123"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "652ac1d15dbd3fd32459f381"
+  },
+  "name": {
+    "firstName": "John",
+    "middleName": null,
+    "lastName": "Doe"
+  },
+  "isBusiness": true,
+  "isAdmin": false,
+  "phone": "+1015125482",
+  "email": "business@gmail.com",
+  "password": "$2a$10$vLF5fvYYwxngHdkbfqhSp.M1bRKhcYwulqqv6bCaGYELzxHpw9FZy",
+  "address": {
+    "state": "CA",
+    "country": "United States",
+    "city": "New York",
+    "street": "Main st.",
+    "houseNum": 126,
+    "zip": "1016A"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "652c1925730013aacb817d99"
+  },
+  "name": {
+    "firstName": "Jessica",
+    "middleName": "Lauren",
+    "lastName": "Smith"
+  },
+  "isBusiness": false,
+  "isAdmin": false,
+  "phone": "+ 4512345678",
+  "email": "regular@gmail.com",
+  "password": "$2a$10$XinesVJGs.MRAdYko9RAq.Gyqi1T9.MkpIy5JOyZlchRh4It4Mrty",
+  "address": {
+    "state": "Hovedstaden",
+    "country": "Denmark",
+    "city": "Copenhagen",
+    "street": "Købmagergade",
+    "houseNum": 67,
+    "zip": "10956A"
+  },
+  "__v": 0
+}]

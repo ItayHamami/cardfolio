@@ -1,0 +1,124 @@
+[{
+  "_id": {
+    "$oid": "652765bfb09829b144eafef1"
+  },
+  "userId": "652765bfb09829b144eafeef",
+  "posts": [
+    {},
+    {
+      "image": {
+        "imageURL": "https://images.unsplash.com/photo-1664575599730-0814817939de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "imageAlt": "cover photo of business"
+      },
+      "address": {
+        "state": "hamerkaz",
+        "country": "israel",
+        "city": "hadera",
+        "street": "Herzel",
+        "houseNum": 14,
+        "zip": "3841006"
+      },
+      "_id": "6526c40f0937c1066cbbbbaf",
+      "title": "Rotchild bread 2",
+      "subtitle": "BREAD",
+      "description": "BREAD",
+      "phone": "0532788261",
+      "email": "mamki1512000@gmail.com",
+      "website": "https://hamami-portfolio.netlify.app",
+      "userId": "650ad0f8b38a9a4cb1546c04",
+      "biznumber": 987654,
+      "likes": [],
+      "__v": 0
+    },
+    {
+      "image": {
+        "imageURL": "/img/breadlogo.png",
+        "imageAlt": "Business logo"
+      },
+      "address": {
+        "country": "Israel",
+        "state": "Hamerkaz",
+        "city": "Rishon Lezion",
+        "street": "Rotchild",
+        "houseNum": 98,
+        "zip": "1231212"
+      },
+      "_id": "65280c48fb8ed448f77fd2be",
+      "title": "Rotchild Bread",
+      "subtitle": "Bakery",
+      "description": "The best Bakery on rotchild street!",
+      "phone": "050-1112151",
+      "email": "Bread@gmail.com",
+      "website": "https://hamami-portfolio.netlify.app",
+      "userId": "652765bfb09829b144eafeef",
+      "biznumber": 18963,
+      "__v": 0
+    },
+    {
+      "image": {
+        "imageURL": "/img/logo-color.png",
+        "imageAlt": "Business logo"
+      },
+      "address": {
+        "state": "Île-de-France",
+        "country": "France",
+        "city": "Paris",
+        "street": "789 Fashion Avenue",
+        "houseNum": 56,
+        "zip": "25746"
+      },
+      "_id": "65280e73fb8ed448f77fd2e2",
+      "title": "Tori Fashion Studio",
+      "subtitle": "Trendy Clothing Boutique",
+      "description": "Discover the latest fashion trends and shop for premium clothing.",
+      "phone": "+33 1 23 45 67 89",
+      "email": "info@fashionstudio.com",
+      "website": "https://www.fashionstudio.com",
+      "userId": "652765bfb09829b144eafeef",
+      "biznumber": 45404,
+      "__v": 0
+    }
+  ],
+  "__v": 32
+},
+{
+  "_id": {
+    "$oid": "652ac1d15dbd3fd32459f383"
+  },
+  "userId": "652ac1d15dbd3fd32459f381",
+  "posts": [
+    {
+      "image": {
+        "imageURL": "/img/breadlogo.png",
+        "imageAlt": "Business logo"
+      },
+      "address": {
+        "country": "Israel",
+        "state": "Hamerkaz",
+        "city": "Rishon Lezion",
+        "street": "Rotchild",
+        "houseNum": 98,
+        "zip": "1231212"
+      },
+      "_id": "65280c48fb8ed448f77fd2be",
+      "title": "Rotchild Bread",
+      "subtitle": "Bakery",
+      "description": "The best Bakery on rotchild street!",
+      "phone": "050-1112151",
+      "email": "Bread@gmail.com",
+      "website": "https://hamami-portfolio.netlify.app",
+      "userId": "652765bfb09829b144eafeef",
+      "biznumber": 18963,
+      "__v": 0
+    }
+  ],
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "652c1925730013aacb817d9b"
+  },
+  "userId": "652c1925730013aacb817d99",
+  "posts": [],
+  "__v": 0
+}]

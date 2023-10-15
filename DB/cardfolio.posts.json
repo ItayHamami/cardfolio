@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "65280c48fb8ed448f77fd2be"
+  },
+  "title": "Rotchild Bread",
+  "subtitle": "Bakery",
+  "description": "The best Bakery on rotchild street!",
+  "phone": "050-1112151",
+  "email": "Bread@gmail.com",
+  "website": "https://hamami-portfolio.netlify.app",
+  "image": {
+    "imageURL": "/img/breadlogo.png",
+    "imageAlt": "Business logo"
+  },
+  "address": {
+    "country": "Israel",
+    "state": "Hamerkaz",
+    "city": "Rishon Lezion",
+    "street": "Rotchild",
+    "houseNum": 98,
+    "zip": "1231212"
+  },
+  "userId": {
+    "$oid": "652765bfb09829b144eafeef"
+  },
+  "biznumber": 18963,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65280e00fb8ed448f77fd2db"
+  },
+  "title": "EcoFriendly Organics ",
+  "subtitle": "Organic Food Products",
+  "description": "e offer a wide range of organic food products sourced directly from local farms.",
+  "phone": "+44 20 1234 5678",
+  "email": "information@ecofriendlyorganics.com",
+  "website": "https://www.ecofriendlyorganics.com",
+  "image": {
+    "imageURL": "/img/organicslogo.png",
+    "imageAlt": "Business logo"
+  },
+  "address": {
+    "country": "United kingdom",
+    "state": "England",
+    "city": "London",
+    "street": "456 Green Lane",
+    "houseNum": 24,
+    "zip": "78548"
+  },
+  "userId": {
+    "$oid": "652765bfb09829b144eafeef"
+  },
+  "biznumber": 63365,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65280e73fb8ed448f77fd2e2"
+  },
+  "title": "Torri Fashion Studio",
+  "subtitle": "Trendy Clothing Boutique",
+  "description": "Discover the latest fashion trends and shop for premium clothing.",
+  "phone": "+33 1 23 45 67 89",
+  "email": "info@fashionstudio.com",
+  "website": "https://www.fashionstudio.com",
+  "image": {
+    "imageURL": "/img/logo-color.png",
+    "imageAlt": "Business logo"
+  },
+  "address": {
+    "country": "France",
+    "state": "Île-de-France",
+    "city": "Paris",
+    "street": "789 Fashion Avenue",
+    "houseNum": 56,
+    "zip": "25746"
+  },
+  "userId": {
+    "$oid": "652765bfb09829b144eafeef"
+  },
+  "biznumber": 45404,
+  "__v": 0
+}]
