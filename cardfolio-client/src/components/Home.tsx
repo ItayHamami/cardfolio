@@ -103,7 +103,6 @@ let handleFavorite = (post: Post) => {
                 <div className="card-body">
                     <h5 className="card-title">{post.title}</h5>
                     <p className="card-text">{post.subtitle}</p>
-                    <p className="card-text">{post.userId}</p>
                     <hr />
                     <p><b>Phone:</b>{post.phone}</p>
                     <p><b>Address:</b>{post.address.street} {post.address.houseNum},{post.address.city}</p>
